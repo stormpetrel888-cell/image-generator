@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Image Generator</h1>
+    <p class="subtitle">Tiny starter app to upload and preview an image.</p>
+
+    <section class="panel">
+      <label for="imageInput" class="button">Choose Image</label>
+      <input id="imageInput" type="file" accept="image/*" />
+      <button id="clearButton" type="button">Clear</button>
+    </section>
+
+    <section class="preview-panel">
+      <img id="previewImage" alt="Image preview will appear here" />
+      <p id="placeholderText">No image selected yet.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
