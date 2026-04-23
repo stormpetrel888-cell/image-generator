@@ -9,11 +9,12 @@
 <body>
   <main class="container">
     <h1>Image Generator</h1>
-    <p class="subtitle">Tiny starter app to upload, preview, and download an image.</p>
+    <p class="subtitle">Tiny starter app to upload, preview, grayscale, and download an image.</p>
 
     <section class="panel">
       <label for="imageInput" class="button">Choose Image</label>
       <input id="imageInput" type="file" accept="image/*" />
+      <button id="grayscaleButton" type="button" disabled>Grayscale</button>
       <button id="downloadButton" type="button" disabled>Download</button>
       <button id="clearButton" type="button">Clear</button>
     </section>
