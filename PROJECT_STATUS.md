@@ -4,32 +4,32 @@
 This repo is for testing and organizing image-generation / image-enhancement workflows connected to DealzMart, Miss Major, and creator-product work.
 
 ## Current Checkpoint
-DealzMart store is active with Dawn theme, but product is currently Draft.
+DealzMart store is active with Dawn theme and product visible.
 
 Product:
 Technical Photo Cleanup & Enhancement
 
 Status:
-Draft
+Active / visible on store
 
 Known working:
 - Product page works
 - Enhanced wind farm image passed first TV check
-- Dawn theme preview looked clean
+- Dawn theme is clean
 - No fake urgency/social-proof seen in preview
-- Homepage preview showed product card with $29.00 CAD when product was active
-- Product detail page preview showed $29.00 CAD and normal add-to-cart / Shop Pay buttons
+- Homepage shows product card with $29.00 CAD
+- Catalog shows product and that is acceptable now
+- Product detail page showed $29.00 CAD and normal add-to-cart / Shop Pay buttons
 - Related products area was clean and said no related products
 - Draft status caused "cannot find variant" during buy/cart test
-- Product temporarily set Active and Add to cart / View cart appeared to work
-- Product returned to Draft after test
+- Product set Active and Add to cart / View cart appeared to work
 
-Issue found:
-- Store is active but has no live product because product is Draft
-- Theme navigation still shows Catalog, which is not wanted right now
+Decision:
+- Catalog is acceptable for now because it shows the product properly.
+- Do not remove Catalog at this checkpoint.
 
 ## Next Task
-Remove Catalog from header navigation, keep store simple, and only activate product when ready for real customer purchase flow.
+Do one final live customer pass: Home -> Catalog -> Product -> Add to cart -> Cart. Do not complete payment.
 
 ## Working Rule
 Small boring repeatable.
@@ -39,4 +39,4 @@ No overbuilding.
 ## Current State
 Repo initialized.
 No app/code structure added yet.
-Shopify cleanup checkpoint updated; store is active, product remains Draft, Catalog link needs removal.
+Shopify checkpoint updated; store active, product visible, Catalog acceptable.
