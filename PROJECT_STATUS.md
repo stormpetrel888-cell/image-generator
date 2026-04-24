@@ -21,8 +21,12 @@ Known working:
 - Product detail page preview shows $29.00 CAD and normal add-to-cart / Shop Pay buttons
 - Related products area is clean and says no related products
 
+Issue found:
+- Buy/add-to-cart test shows "cannot find variant" while product is in Draft.
+- Likely checkout/cart cannot complete against a draft or unavailable product variant.
+
 ## Next Task
-Do one final customer-preview pass, then publish Dawn if clean.
+Temporarily set product Active again, verify variant/availability, then test Add to cart before publishing Dawn.
 
 ## Working Rule
 Small boring repeatable.
@@ -32,4 +36,4 @@ No overbuilding.
 ## Current State
 Repo initialized.
 No app/code structure added yet.
-Shopify cleanup checkpoint updated.
+Shopify cleanup checkpoint updated with variant/cart issue.
