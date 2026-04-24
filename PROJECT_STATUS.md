@@ -19,9 +19,10 @@ Known working:
 - No fake urgency/social-proof seen in preview
 - Homepage preview shows product card with $29.00 CAD
 - Product detail page preview shows $29.00 CAD and normal add-to-cart / Shop Pay buttons
+- Related products area is clean and says no related products
 
 ## Next Task
-Remove or hide the Related products section, then do one final customer-preview pass before publishing Dawn.
+Do one final customer-preview pass, then publish Dawn if clean.
 
 ## Working Rule
 Small boring repeatable.
