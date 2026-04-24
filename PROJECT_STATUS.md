@@ -23,13 +23,15 @@ Known working:
 - Related products area was clean and said no related products
 - Draft status caused "cannot find variant" during buy/cart test
 - Product set Active and Add to cart / View cart appeared to work
+- User completed the current working pass and paused for family time
 
 Decision:
 - Catalog is acceptable for now because it shows the product properly.
 - Do not remove Catalog at this checkpoint.
+- Stop theme work for now; no more tinkering today unless a real issue appears.
 
 ## Next Task
-Do one final live customer pass: Home -> Catalog -> Product -> Add to cart -> Cart. Do not complete payment.
+When returning: do one calm final live customer pass: Home -> Catalog -> Product -> Add to cart -> Cart. Do not complete payment.
 
 ## Working Rule
 Small boring repeatable.
@@ -37,6 +39,4 @@ One task at a time.
 No overbuilding.
 
 ## Current State
-Repo initialized.
-No app/code structure added yet.
-Shopify checkpoint updated; store active, product visible, Catalog acceptable.
+Parked. Store active, product visible, Catalog acceptable, theme work paused for family time.
