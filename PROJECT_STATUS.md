@@ -4,11 +4,11 @@
 This repo is for testing and organizing image-generation / image-enhancement workflows connected to DealzMart, Miss Major, and creator-product work.
 
 ## Current Checkpoint
-DealzMart product created:
+DealzMart draft product created:
 Technical Photo Cleanup & Enhancement
 
 Status:
-Active for cart testing
+Draft
 
 Known working:
 - Product page works
@@ -19,10 +19,11 @@ Known working:
 - Product detail page preview shows $29.00 CAD and normal add-to-cart / Shop Pay buttons
 - Related products area is clean and says no related products
 - Draft status caused "cannot find variant" during buy/cart test
-- Product set Active and Add to cart / View cart appears to work
+- Product temporarily set Active and Add to cart / View cart appeared to work
+- Product returned to Draft after test
 
 ## Next Task
-Verify cart details, then decide whether to publish Dawn theme.
+Publish Dawn theme only when ready; product must be Active for real customer purchase flow.
 
 ## Working Rule
 Small boring repeatable.
@@ -32,4 +33,4 @@ No overbuilding.
 ## Current State
 Repo initialized.
 No app/code structure added yet.
-Shopify cleanup checkpoint updated with successful cart test.
+Shopify cleanup checkpoint updated; product is back in Draft.
