@@ -18,9 +18,10 @@ Known working:
 - Dawn draft theme preview looks clean
 - No fake urgency/social-proof seen in preview
 - Homepage preview shows product card with $29.00 CAD
+- Product detail page preview shows $29.00 CAD and normal add-to-cart / Shop Pay buttons
 
 ## Next Task
-Preview the product detail page and verify price/currency/add-to-cart flow.
+Remove or hide the Related products section, then do one final customer-preview pass before publishing Dawn.
 
 ## Working Rule
 Small boring repeatable.
