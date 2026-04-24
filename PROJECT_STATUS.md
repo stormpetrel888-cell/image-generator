@@ -13,9 +13,14 @@ Draft
 Known working:
 - Product page works
 - Enhanced wind farm image passed first TV check
+- Product was temporarily set Active only to allow customer-style preview
+- Product has been returned to Draft
+- Dawn draft theme preview looks clean
+- No fake urgency/social-proof seen in preview
+- Homepage preview shows product card with $29.00 CAD
 
 ## Next Task
-Remove fake urgency and fake social-proof blocks from the product page.
+Preview the product detail page and verify price/currency/add-to-cart flow.
 
 ## Working Rule
 Small boring repeatable.
@@ -25,3 +30,4 @@ No overbuilding.
 ## Current State
 Repo initialized.
 No app/code structure added yet.
+Shopify cleanup checkpoint updated.
